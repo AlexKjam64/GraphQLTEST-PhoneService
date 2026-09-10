@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: nintendo-phoneService
+  datasource:
+    url: jdbc:postgresql://localhost:5432/u2r94970203
+    username: postgres
+    password: password
+
+server:
+  port: 8083
+  servlet:
+    contextPath: /phone
